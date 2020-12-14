@@ -1,5 +1,5 @@
 {
-    "name": "devgroup/yii2-jsoneditor",
+    "name": "better-me/yii2-jsoneditor",
     "description": "Yii2 jsoneditor widget",
     "type": "yii2-extension",
     "keywords": ["yii2","json","jsoneditor","editor"],
