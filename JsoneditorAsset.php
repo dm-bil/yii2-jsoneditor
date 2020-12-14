@@ -6,6 +6,8 @@ use yii\web\AssetBundle;
 
 class JsoneditorAsset extends AssetBundle
 {
+    public $sourcePath = __DIR__ . '/';
+
     public $js = [
         'jsoneditor.min.js'
     ];
