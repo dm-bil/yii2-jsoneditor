@@ -19,9 +19,9 @@ jobs:
       - uses: aquasecurity/trivy-action@master
         name: "Trivy scan"
         with:
-          scan-type: 'fs'
-          scan-ref: '.'
-          format: 'sarif'
+          image-ref: 'php:8.0-zts-buster'
+          format: 'template'
+          template: '@/contrib/sarif.tpl'
           output: 'trivy-results.sarif'
       - uses: sonarsource/sonarqube-scan-action@master
         name: "SonarQube scan"
